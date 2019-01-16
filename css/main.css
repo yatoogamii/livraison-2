@@ -38,4 +38,7 @@ html {
   .figure .figure__img {
     max-width: 100vw; }
 
+.nav {
+  display: inline-block; }
+
 /*# sourceMappingURL=main.css.map */
