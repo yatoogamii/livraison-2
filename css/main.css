@@ -6,6 +6,12 @@
 html {
   font-size: 62.5%; }
 
+.header__h1 {
+  position: relative;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.01);
+  width: 40%; }
+
 .nav__i--icon-facebook {
   background-image: url("../../../img/icon/facebook-square.svg");
   content: "";
@@ -38,7 +44,17 @@ html {
   .figure .figure__img {
     max-width: 100vw; }
 
+.header {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.01);
+  width: 100%; }
+
 .nav {
-  display: inline-block; }
+  position: relative;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.01);
+  width: 50%; }
 
 /*# sourceMappingURL=main.css.map */

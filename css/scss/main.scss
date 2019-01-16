@@ -3,7 +3,7 @@
 // ====================================
 
 
-
+@import 'abstracts/variables';
 
 
 // ====================================
@@ -11,14 +11,14 @@
 // ====================================
 
 
-@import 'base/_reset.scss';
+@import 'base/reset';
 
 
 // ====================================
 // ========= components ===============
 // ====================================
 
-
+@import 'components/_h1.scss';
 @import 'components/icons';
 @import 'components/img';
 
@@ -27,8 +27,8 @@
 // =========== layout =================
 // ====================================
 
-@import 'layout/nav.scss';
-
+@import 'layout/header';
+@import 'layout/nav';
 
 
 
