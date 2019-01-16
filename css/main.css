@@ -1,0 +1,28 @@
+.nav__i--icon-facebook {
+  background-image: url("../../../img/icon/facebook-square.svg");
+  content: "";
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.2rem;
+  display: inline-block;
+  background-size: cover; }
+
+.nav__i--icon-twitter {
+  background-image: url("../../../img/icon/twitter-square.svg");
+  content: "";
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.2rem;
+  display: inline-block;
+  background-size: cover; }
+
+.nav__i--icon-instagram {
+  background-image: url("../../../img/icon/instagram.svg");
+  content: "";
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.2rem;
+  display: inline-block;
+  background-size: cover; }
+
+/*# sourceMappingURL=main.css.map */

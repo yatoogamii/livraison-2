@@ -1,0 +1,26 @@
+@mixin icon-nav($url) {
+	background-image: url($url);
+}
+@mixin icon-before {
+	content: "";
+	width: 1rem;
+	height: 1rem;
+	margin-right: 0.2rem;
+	display: inline-block;
+	background-size: cover;
+}
+
+.nav__i--icon-facebook {
+	@include icon-nav('../../../img/icon/facebook-square.svg');
+	@include icon-before;
+}
+
+.nav__i--icon-twitter {
+	@include icon-nav('../../../img/icon/twitter-square.svg');
+	@include icon-before;
+}
+
+.nav__i--icon-instagram {
+	@include icon-nav('../../../img/icon/instagram.svg');
+	@include icon-before;
+}
