@@ -1,0 +1,26 @@
+.fa-camera {
+  position: relative;
+  font-size: 4rem;
+  grid-columns: 2 / 3;
+  text-align: center;
+  
+  &:hover {
+    transition: 0.5s;
+    opacity: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+.fa-instagram, .fa-twitter-square, .fa-facebook-square {
+  font-size: 3rem;
+  padding: 0 -1rem;
+}
