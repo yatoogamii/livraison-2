@@ -1,0 +1,62 @@
+.article-pregnancy {
+  background: url('../../../img/pregnancy-carousel.jpg'); 
+  @include background-offer;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-row: 1 / 2;
+  &:hover {
+  transform: scale(1.2);
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+
+}
+.article-birth {
+  background: url('../../../img/birth-carousel.jpg');
+  @include background-offer;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-row: 2 / 3;
+  &:hover {
+  transform: scale(1.2);
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+}
+.article-baby {
+  background: url('../../../img/baby-carousel.jpg');
+  @include background-offer;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-row: 3 / 4;
+  &:hover {
+  transform: scale(1.2);
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+}
+
+.article__container-text {
+  position: relative;
+  top: 70%;
+  left: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: $white;
+}
+
+.article__h2 {
+  position: relative;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.article__p {
+  position: relative;
+  font-size: 2rem;
+  padding: 0 0 0 1rem;
+}
+
+

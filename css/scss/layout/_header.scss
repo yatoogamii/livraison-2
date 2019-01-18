@@ -1,8 +1,9 @@
 .header {
   position: absolute;
   display: grid;
-  grid-template-columns: 1fr 1.2fr 1fr;
-  background-color: rgba(0,0,0,0.01);
-  width: 100vw;
+  grid-template-columns: 1fr 1fr 1.2fr;
+  background-color: rgba(0,0,0,0.0);
+  width: 100%;
   max-width: 100%;
+  z-index: 1;
 }

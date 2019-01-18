@@ -1,0 +1,32 @@
+
+.figure {
+  display: flex;
+  position: absolute;
+  height: 100vh;
+  max-height: 100%;
+    .figure__img {
+      display: inline-block;
+      position: relative;
+      width: 100vw; 
+      height: 100vh;
+      max-height: 100%;
+    }
+}
+
+.figure--slider {
+  animation: 20s infinite normal slidein;
+}
+
+@keyframes slidein {
+  0% {left: 0%;} 
+  10% {left: 0%;}
+  25% {left: -100vw;}
+  40% {left: -100vw;}
+  55% {left: -100vw;}
+  70% {left: -200vw;}
+  75% {left: -200vw;}
+  80% {left: -200vw;}
+  95% {left: -300vw;}
+  100% {left: -300vw;}
+}
+

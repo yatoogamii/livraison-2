@@ -2,7 +2,8 @@
 * {
   padding: 0;
   margin: 0;
-  border: 0; }
+  border: 0;
+  box-sizing: border-box; }
 
 html {
   font-family: 'Source Sans Pro', sans-serif;
@@ -12,10 +13,14 @@ html {
 .header__h1 {
   position: relative;
   grid-columns: 1 / 2;
-  background-color: rgba(0, 0, 0, 0.01);
+  background-color: rgba(0, 0, 0, 0);
   font-size: 3rem;
-  margin-left: 2rem;
-  margin-top: 0.1rem; }
+  margin-left: 2.5rem;
+  margin-top: 0.3rem; }
+
+.header__h1--hover:hover {
+  transition: 1s;
+  color: #f1faee; }
 
 .fa-camera {
   position: relative;
@@ -28,13 +33,7 @@ html {
 
 .fa-instagram, .fa-twitter-square, .fa-facebook-square {
   font-size: 3rem;
-  padding: 0 -1rem; }
-
-.figure {
-  overflow: hidden; }
-  .figure .figure__img {
-    width: 100vw;
-    max-width: 100vw; }
+  text-align: center; }
 
 .header__container-button {
   display: flex;
@@ -48,37 +47,153 @@ html {
     text-align: center;
     width: 6rem;
     height: 6rem;
-    animation: beat .25s infinite alternate;
+    animation: beat .45s infinite alternate;
     transform-origin: center; }
 
 @keyframes beat {
   to {
-    transform: scale(1.4); } }
+    transform: scale(1.3); } }
 .header__button--hover:hover {
   transition: 0.5s;
-  background-color: transparent; }
+  color: rgba(0, 0, 0, 0); }
+
+.figure {
+  display: flex;
+  position: absolute;
+  height: 100vh;
+  max-height: 100%; }
+  .figure .figure__img {
+    display: inline-block;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    max-height: 100%; }
+
+.figure--slider {
+  animation: 20s infinite normal slidein; }
+
+@keyframes slidein {
+  0% {
+    left: 0%; }
+  10% {
+    left: 0%; }
+  25% {
+    left: -100vw; }
+  40% {
+    left: -100vw; }
+  55% {
+    left: -100vw; }
+  70% {
+    left: -200vw; }
+  75% {
+    left: -200vw; }
+  80% {
+    left: -200vw; }
+  95% {
+    left: -300vw; }
+  100% {
+    left: -300vw; } }
+.article-pregnancy {
+  background: url("../../../img/pregnancy-carousel.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-row: 1 / 2; }
+  .article-pregnancy:hover {
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out; }
+
+.article-birth {
+  background: url("../../../img/birth-carousel.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-row: 2 / 3; }
+  .article-birth:hover {
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out; }
+
+.article-baby {
+  background: url("../../../img/baby-carousel.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-row: 3 / 4; }
+  .article-baby:hover {
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out; }
+
+.article__container-text {
+  position: relative;
+  top: 70%;
+  left: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #f1faee; }
+
+.article__h2 {
+  position: relative;
+  font-size: 3rem;
+  text-align: center; }
+
+.article__p {
+  position: relative;
+  font-size: 2rem;
+  padding: 0 0 0 1rem; }
 
 .header {
   position: absolute;
   display: grid;
-  grid-template-columns: 1fr 1.2fr 1fr;
-  background-color: rgba(0, 0, 0, 0.01);
-  width: 100vw;
-  max-width: 100%; }
+  grid-template-columns: 1fr 1fr 1.2fr;
+  background-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  max-width: 100%;
+  z-index: 1; }
 
 .nav {
   position: relative;
   grid-columns: 3 / 4;
   display: flex;
-  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
   background-color: #f1faee;
-  border-radius: 0 0 10rem 10rem;
-  font-size: 2.5rem;
-  padding: 1.3rem; }
+  font-size: 2.5rem; }
   .nav .nav__link {
+    width: 100%;
+    height: 100%;
+    text-align: center;
     text-decoration: none;
     color: #1d3557;
-    padding: 0.5rem 1.1rem; }
+    padding: 0 1rem;
+    padding-top: 1.2rem; }
+
+.nav__link--hover:hover {
+  transition: 0.7s;
+  background-color: #1d3557;
+  color: #f1faee; }
+
+.main-page-offer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: 100vw;
+  height: 100vh; }
+
+body {
+  overflow: hidden; }
 
 /*# sourceMappingURL=main.css.map */
