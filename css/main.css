@@ -124,7 +124,7 @@ a {
   .article-pregnancy:hover {
     filter: brightness(100%);
     transform: scale(1.2);
-    transition-duration: 0.5s;
+    transition-duration: 0.3s;
     transition-timing-function: ease-in-out; }
 
 .article-birth {
@@ -140,7 +140,7 @@ a {
   .article-birth:hover {
     filter: brightness(100%);
     transform: scale(1.2);
-    transition-duration: 0.5s;
+    transition-duration: 0.3s;
     transition-timing-function: ease-in-out; }
 
 .article-baby {
@@ -156,7 +156,7 @@ a {
   .article-baby:hover {
     filter: brightness(100%);
     transform: scale(1.2);
-    transition-duration: 0.5s;
+    transition-duration: 0.3s;
     transition-timing-function: ease-in-out; }
 
 .article__container-text {
