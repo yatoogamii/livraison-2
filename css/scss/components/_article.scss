@@ -1,5 +1,5 @@
 .article-pregnancy {
-  background: url('../../../img/pregnancy-carousel.jpg'); 
+  background: url('../img/pregnancy-carousel.jpg'); 
   @include background-offer;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -13,7 +13,7 @@
 
 }
 .article-birth {
-  background: url('../../../img/birth-carousel.jpg');
+  background: url('../img/birth-carousel.jpg');
   @include background-offer;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -26,7 +26,7 @@
 }
 }
 .article-baby {
-  background: url('../../../img/baby-carousel.jpg');
+  background: url('../img/baby-carousel.jpg');
   @include background-offer;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
