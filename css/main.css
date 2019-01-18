@@ -16,7 +16,7 @@ html {
 a {
   color: #1d3557; }
   a:hover {
-    transition: 1s;
+    transition: 0.5s;
     color: #f1faee; }
 
 .header__h1 {
