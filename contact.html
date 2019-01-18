@@ -10,40 +10,54 @@
 </head>
 <body>
 
-	<header class="header">
-		<h1 class="header__h1 header__h1--hover">Melys White</h1>
+	<header class="header header-contact">
+      <a href="index.html">
+        <h1 class="header__h1 header__h1-contact header__h1--hover">Melys White</h1>
+      </a>
         <div class="header__container-button">
           <div class="header__button header__button--hover">
             <i class="fas fa-camera"></i>
           </div>
         </div>
         <nav class="nav nav--hidden">
+          <a class="nav__link nav__link--hover nav__link--hidden nav__link--hover" href="index.html">Home</a>
           <a class="nav__link nav__link--hover nav__link--hidden nav__link--hover" href="offer.html">Offer</a>
-          <a class="nav__link nav__link--hover nav__link--hidden nav__link--hover" href="contact.html">Contact</a>
           <a class="nav__link nav__link--hover" href="#"> <i class="fab fa-instagram"></i></a>
           <a class="nav__link nav__link--hover" href="#"> <i class="fab fa-twitter-square"></i></a>
           <a class="nav__link nav__link--hover" href="#"> <i class="fab fa-facebook-square"></i></a>
         </nav>
     </header>
 
-    <main class="main">
-      <figure class="header__figure">
-        <img class="figure__img" src="https://via.placeholder.com/1366x768" alt="photography photographe">
+    <main class="main-contact">
+      <figure class="main__figure">
+        <img class="figure__img-contact" src="../img/photographer.jpg" alt="photography photographe">
       </figure>
-      <article class="header__article">
-        <h2 class="article__h2">Contact me</h2>
-        <p class="article__p">blablablablablablablablablabla</p>
+      <article class="main__article">
+        <div class="contact-pres">
+          <h2 class="article-contact__h2">Contact me</h2>
+          <p class="article-contact__p">
+  Elit possimus voluptates veritatis ipsam libero! Delectus perspiciatis minus reiciendis possimus cum. Voluptatibus veniam quia nemo sunt beatae Itaque numquam voluptatibus sapiente eos magni. Illum enim eum sapiente consequuntur doloribus.
+
+</p>
+        </div>
         <form class="form__article">
           <fieldset class="form__fieldset">
-            <legend class="fieldset__legend">Contact me</legend>
-            <label for="mail" class="fieldset__label">Your mail:</label>
-            <input class="fieldset__input" id="mail" type="email" name="email" placeholder="my.email@gmail.com">
-            <label for="name" class="fieldset__label">Your name:</label>
-            <input class="fieldset__input" id="name" type="text" name="name" placeholder="my name">
-            <label for="message" class="fieldset__label">Your message:</label>
-            <textarea class="fieldset__textarea" id="message" name="message" cols="30" rows="10" placeholder="Write your message"></textarea>
-            <button class="fieldset__button" type="submit" name="submit">Submit</button>
-            <button class="fieldset__button" type="reset" name="reset">Reset</button>
+            <div class="container__mail">
+              <label for="mail" class="fieldset__label">Your mail:</label>
+              <input class="fieldset__input" id="mail" type="email" name="email" placeholder="my.email@gmail.com">
+            </div>
+            <div class="container__name">
+              <label for="name" class="fieldset__label">Your name:</label>
+              <input class="fieldset__input" id="name" type="text" name="name" placeholder="my name">
+            </div>
+            <div class="container__message">
+              <label for="message" class="fieldset__label">Your message:</label>
+              <textarea class="fieldset__textarea" id="message" name="message" cols="30" rows="10" placeholder="Write your message"></textarea>
+            </div>
+            <div class="container__button">
+              <button class="fieldset__button" type="submit" name="submit">Submit</button>
+              <button class="fieldset__button" type="reset" name="reset">Reset</button>
+            </div>
           </fieldset>
         </form>
       </article>
