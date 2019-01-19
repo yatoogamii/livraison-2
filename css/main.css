@@ -233,6 +233,9 @@ a {
   width: 100%;
   font-size: 2rem;
   padding: 2rem 10rem; }
+  @media (max-width: 800px) {
+    .article-contact__p {
+      padding: 0; } }
 
 .article__link-tel {
   text-align: center;

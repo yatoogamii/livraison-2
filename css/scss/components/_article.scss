@@ -107,6 +107,9 @@
   width: 100%;
   font-size: 2rem;
   padding: 2rem 10rem;
+  @media (max-width: 800px) {
+    padding: 0;
+  }
 }
 
 .article__link-tel {
