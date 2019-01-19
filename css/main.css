@@ -124,7 +124,7 @@ a {
     .main__figure {
       width: 45%;
       max-width: 45%; } }
-  @media (max-width: 800px) {
+  @media (max-width: 1060px) {
     .main__figure {
       width: 100%;
       max-width: 100%; } }
@@ -214,7 +214,7 @@ a {
   @media (max-width: 1200px) {
     .main__article {
       width: 55%; } }
-  @media (max-width: 800px) {
+  @media (max-width: 1060px) {
     .main__article {
       width: 100%; } }
 
@@ -330,6 +330,8 @@ a {
   z-index: 1; }
   @media (max-width: 1200px) {
     .header {
+      position: fixed;
+      top: 0;
       display: flex;
       background-color: #f1faee;
       height: 5rem; } }
@@ -377,5 +379,9 @@ a {
 
 body {
   overflow: hidden; }
+  @media (max-width: 1200px) {
+    body {
+      overflow-x: hidden;
+      overflow-y: visible; } }
 
 /*# sourceMappingURL=main.css.map */
