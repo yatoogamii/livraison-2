@@ -389,8 +389,8 @@ a {
   max-height: 100%; }
 
 html, .no-scroll {
-  overflow-x: hidden;
-  overflow-y: hidden; }
+  overflow-x: hidden !important;
+  overflow-y: hidden !important; }
 
 html, .scroll {
   overflow: hidden visible; }
