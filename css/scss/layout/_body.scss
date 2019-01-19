@@ -1,6 +1,22 @@
-  .no-scroll {
-    overflow: hidden;
-    @media (max-width: 1000px) {
+.body-contact {
+  overflow: hidden;
+  @media (max-width: 1000px) {
+    overflow-x: visible;
+    overflow-y: hidden;
+  }
+}
+.body-offer {
+  overflow: hidden;
+  @media (max-width: 1000px) {
+    overflow-x: visible;
+    overflow-y: hidden;
+  }
+}
+
+.body-index {
+  overflow: hidden;
+  @media (max-width: 1000px) {
     position: fixed;
   }
 }
+

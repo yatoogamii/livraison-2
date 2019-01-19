@@ -388,10 +388,24 @@ a {
   height: 100vh;
   max-height: 100%; }
 
-.no-scroll {
+.body-contact {
   overflow: hidden; }
   @media (max-width: 1000px) {
-    .no-scroll {
+    .body-contact {
+      overflow-x: visible;
+      overflow-y: hidden; } }
+
+.body-offer {
+  overflow: hidden; }
+  @media (max-width: 1000px) {
+    .body-offer {
+      overflow-x: visible;
+      overflow-y: hidden; } }
+
+.body-index {
+  overflow: hidden; }
+  @media (max-width: 1000px) {
+    .body-index {
       position: fixed; } }
 
 /*# sourceMappingURL=main.css.map */
