@@ -395,8 +395,11 @@ a {
       position: fixed; } }
 
 .body-offer {
-  overflow-y: visible;
+  overflow-y: hidden;
   overflow-x: hidden; }
+  @media (max-width: 1000px) {
+    .body-offer {
+      overflow-y: visible; } }
 
 .body-contact {
   overflow-y: visible;

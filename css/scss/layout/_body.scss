@@ -6,8 +6,11 @@
 }
 
 .body-offer {
+  overflow-y: hidden;
+  overflow-x: hidden;
+  @media (max-width: 1000px) {
     overflow-y: visible;
-    overflow-x: hidden;
+  }
   }
 
 .body-contact {
