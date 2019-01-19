@@ -334,7 +334,9 @@ a {
       top: 0;
       display: flex;
       background-color: #f1faee;
-      height: 5rem; } }
+      height: 5rem;
+      width: 100vw;
+      max-width: 100%; } }
 
 .nav {
   position: relative;
