@@ -385,7 +385,8 @@ a {
 
 .main-page-index {
   overflow: hidden;
-  height: 100vh; }
+  height: 100vh;
+  max-height: 100%; }
 
 body {
   overflow: hidden; }
