@@ -392,6 +392,9 @@ html, body {
   overflow-x: hidden;
   overflow-y: hidden; }
 
+html, .scroll {
+  overflow: hidden visible; }
+
 body {
   overflow: hidden; }
   @media (max-width: 1200px) {

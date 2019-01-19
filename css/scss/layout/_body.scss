@@ -2,6 +2,9 @@ html, body {
   overflow-x: hidden;
   overflow-y: hidden;
 }
+html, .scroll {
+  overflow: hidden visible;
+}
 
 
 body {
