@@ -388,10 +388,10 @@ a {
   height: 100vh;
   max-height: 100%; }
 
-body {
+.no-scroll {
   overflow: hidden; }
   @media (max-width: 1000px) {
-    body {
+    .no-scroll {
       position: fixed; } }
 
 /*# sourceMappingURL=main.css.map */
