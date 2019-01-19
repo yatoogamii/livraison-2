@@ -6,4 +6,9 @@
   width: 100%;
   max-width: 100%;
   z-index: 1;
+  @media (max-width: 1200px) {
+    display: flex;
+    background-color: $white;
+    height: 5rem;
+  }
 }

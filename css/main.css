@@ -18,6 +18,10 @@ a {
   a:hover {
     transition: 0.5s;
     color: #f1faee; }
+    @media (max-width: 1200px) {
+      a:hover {
+        color: #1d3557;
+        transition: 0; } }
 
 .header__h1 {
   position: relative;
@@ -26,6 +30,9 @@ a {
   font-size: 3rem;
   margin-left: 2.5rem;
   margin-top: 0.3rem; }
+  @media (max-width: 1200px) {
+    .header__h1 {
+      white-space: nowrap; } }
 
 .header__h1-contact {
   margin-top: 1rem; }
@@ -53,6 +60,9 @@ a {
   justify-content: center;
   align-items: center;
   grid-column: 2 / 3; }
+  @media (max-width: 1200px) {
+    .header__container-button {
+      display: none; } }
   .header__container-button .header__button {
     display: flex;
     justify-content: center;
@@ -271,6 +281,22 @@ a {
     .container__button .fieldset__button:hover {
       background-color: #457b9d; }
 
+.figure-burger {
+  display: none; }
+  @media (max-width: 1200px) {
+    .figure-burger {
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+      padding-right: 2rem; } }
+
+.figure__img-burger {
+  display: none; }
+  @media (max-width: 1200px) {
+    .figure__img-burger {
+      display: inline-block;
+      width: 3.5rem; } }
+
 .header {
   position: absolute;
   display: grid;
@@ -279,6 +305,11 @@ a {
   width: 100%;
   max-width: 100%;
   z-index: 1; }
+  @media (max-width: 1200px) {
+    .header {
+      display: flex;
+      background-color: #f1faee;
+      height: 5rem; } }
 
 .nav {
   position: relative;
@@ -299,6 +330,9 @@ a {
     color: #1d3557;
     padding: 0 1rem;
     padding-top: 1.2rem; }
+  @media (max-width: 1200px) {
+    .nav {
+      display: none; } }
 
 .nav__link--hover:hover {
   transition: 0.4s;

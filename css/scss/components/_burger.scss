@@ -1,0 +1,18 @@
+.figure-burger {
+  display: none;
+  @media (max-width: 1200px) {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding-right: 2rem;
+
+  }
+}
+.figure__img-burger {
+  display: none;
+  @media (max-width: 1200px) {
+    display: inline-block;
+    width: 3.5rem; 
+  }
+}
+

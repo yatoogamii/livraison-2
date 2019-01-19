@@ -4,6 +4,10 @@ a {
   &:hover {
   transition: 0.5s;
   color: $white;
+  @media (max-width: 1200px) {
+    color: $dark-blue;
+    transition: 0;
+  }
   }
 }
 .header__h1 {
@@ -13,6 +17,9 @@ a {
   font-size: 3rem;
   margin-left: 2.5rem;
   margin-top: 0.3rem;
+  @media (max-width: 1200px) {
+    white-space: nowrap;
+  }
 }
 
 .header__h1-contact {
