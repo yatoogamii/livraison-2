@@ -5,9 +5,6 @@
   border: 0;
   box-sizing: border-box; }
 
-html {
-  overflow: hidden; }
-
 a {
   text-decoration: none; }
 
@@ -385,6 +382,9 @@ a {
   align-items: center;
   flex-wrap: wrap;
   height: 100vh; }
+
+.main-page-index {
+  overflow: hidden; }
 
 body {
   overflow: hidden; }
