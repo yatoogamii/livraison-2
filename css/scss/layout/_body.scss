@@ -1,4 +1,6 @@
-html, body {
-  overflow-x: hidden;
-  overflow-y: hidden;
+  body {
+    overflow: hidden;
+    @media (max-width: 1000px) {
+    position: fixed;
+  }
 }

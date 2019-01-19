@@ -388,8 +388,10 @@ a {
   height: 100vh;
   max-height: 100%; }
 
-html, body {
-  overflow-x: hidden;
-  overflow-y: hidden; }
+body {
+  overflow: hidden; }
+  @media (max-width: 1000px) {
+    body {
+      position: fixed; } }
 
 /*# sourceMappingURL=main.css.map */
