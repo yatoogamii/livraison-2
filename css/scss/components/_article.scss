@@ -11,6 +11,9 @@
   transform: scale(1.2);
   transition-duration: 0.3s;
   transition-timing-function: ease-in-out;
+  @media (max-width: 1200px) {
+    transform: none;
+  }
 }
 
 }
@@ -27,6 +30,9 @@
   transform: scale(1.2);
   transition-duration: 0.3s;
   transition-timing-function: ease-in-out;
+  @media (max-width: 1200px) {
+    transform: none;
+  }
 }
 }
 .article-baby {
@@ -42,6 +48,9 @@
   transform: scale(1.2);
   transition-duration: 0.3s;
   transition-timing-function: ease-in-out;
+  @media (max-width: 1200px) {
+    transform: none;
+  }
 }
 }
 
@@ -73,6 +82,12 @@
   height: 100vh;
   color: $white;
   background-color: $dark-blue;
+  @media (max-width: 1200px) {
+    width: 55%;
+  }
+  @media (max-width: 800px) {
+    width: 100%;
+  }
 }
 
 .contact-pres {
