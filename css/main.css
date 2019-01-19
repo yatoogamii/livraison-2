@@ -388,7 +388,7 @@ a {
   height: 100vh;
   max-height: 100%; }
 
-html, body {
+html, .no-scroll {
   overflow-x: hidden;
   overflow-y: hidden; }
 
