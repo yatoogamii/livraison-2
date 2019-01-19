@@ -1,8 +1,15 @@
+html, body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+
 body {
   overflow: hidden;
   @media (max-width: 1200px) {
-    position: fixed;
     overflow-x: hidden;
     overflow-y: visible;
   }
 }
+
+
