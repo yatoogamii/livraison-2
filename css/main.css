@@ -376,6 +376,9 @@ a {
   grid-template-rows: 1fr 1fr 1fr;
   width: 100vw;
   height: 100vh; }
+  @media (max-width: 1200px) {
+    .main-page-offer {
+      grid-template-rows: 100vh 100vh 100vh; } }
 
 .main-contact {
   display: flex;
@@ -397,7 +400,7 @@ a {
 .body-offer {
   overflow-y: hidden;
   overflow-x: hidden; }
-  @media (max-width: 1000px) {
+  @media (max-width: 1200px) {
     .body-offer {
       overflow-y: visible; } }
 
