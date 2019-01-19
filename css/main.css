@@ -310,8 +310,7 @@ a {
     .figure-burger {
       display: flex;
       justify-content: flex-end;
-      width: 100vw;
-      max-width: 100%;
+      width: 100%;
       padding-right: 2rem; } }
 
 .figure__img-burger {
