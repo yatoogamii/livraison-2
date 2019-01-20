@@ -6,13 +6,13 @@ a {
   color: $white;
   @media (max-width: 1200px) {
     color: $dark-blue;
-    transition: 0;
+    transition: none;
   }
   }
 }
 .header__h1 {
   position: relative;
-  grid-columns: 1 / 2;
+  grid-column: 1 / 2;
   background-color: rgba(0,0,0,0.0);
   font-size: 3rem;
   margin-left: 2.5rem;
