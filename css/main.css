@@ -137,7 +137,7 @@ a {
   background-size: cover;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 2fr 1fr 2fr;
   grid-row: 1 / 2; }
   .article-pregnancy:hover {
     filter: brightness(100%);
@@ -156,7 +156,7 @@ a {
   background-size: cover;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 2fr 1fr 2fr;
   grid-row: 2 / 3; }
   .article-birth:hover {
     filter: brightness(100%);
@@ -175,7 +175,7 @@ a {
   background-size: cover;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 2fr 1fr 2fr;
   grid-row: 3 / 4; }
   .article-baby:hover {
     filter: brightness(100%);
@@ -191,7 +191,8 @@ a {
   top: 70%;
   left: 100%;
   background-color: rgba(0, 0, 0, 0.3);
-  color: #f1faee; }
+  color: #f1faee;
+  grid-row: 2 / 3; }
 
 .article__h2 {
   position: relative;
