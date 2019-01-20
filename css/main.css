@@ -141,7 +141,10 @@ a {
   grid-row: 1 / 2; }
   @media (max-width: 1200px) {
     .article-pregnancy {
-      grid-template-rows: 40% 20% 40%; } }
+      grid-template-rows: 42% 20% 40%; } }
+  @media (max-width: 800px) {
+    .article-pregnancy {
+      grid-template-rows: 42% 20% 40%; } }
   .article-pregnancy:hover {
     filter: brightness(100%);
     transform: scale(1.2);
@@ -163,7 +166,10 @@ a {
   grid-row: 2 / 3; }
   @media (max-width: 1200px) {
     .article-birth {
-      grid-template-rows: 40% 20% 40%; } }
+      grid-template-rows: 42% 20% 40%; } }
+  @media (max-width: 800px) {
+    .article-birth {
+      grid-template-rows: 42% 20% 40%; } }
   .article-birth:hover {
     filter: brightness(100%);
     transform: scale(1.2);
@@ -185,7 +191,10 @@ a {
   grid-row: 3 / 4; }
   @media (max-width: 1200px) {
     .article-baby {
-      grid-template-rows: 40% 20% 40%; } }
+      grid-template-rows: 42% 20% 40%; } }
+  @media (max-width: 800px) {
+    .article-baby {
+      grid-template-rows: 42% 20% 40%; } }
   .article-baby:hover {
     filter: brightness(100%);
     transform: scale(1.2);
@@ -207,6 +216,9 @@ a {
       justify-content: center;
       align-items: center;
       flex-wrap: wrap; } }
+  @media (max-width: 800px) {
+    .article__container-text {
+      grid-column: 1 / 4; } }
 
 .article__h2 {
   width: 100%;
