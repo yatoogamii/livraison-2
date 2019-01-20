@@ -7,9 +7,12 @@
   grid-template-rows: 20% 60% 20%;
   grid-row: 1 / 2;
   @media (max-width: 1200px) {
+    grid-template-rows: 40% 25% 40%;
+  }
+  @media (max-width: 800px) {
     grid-template-rows: 40% 15% 40%;
   }
-  @media (max-width: 600px) {
+  @media (max-width: 550px) {
     grid-template-rows: 40% 25% 40%;
   }
   &:hover {
@@ -32,9 +35,12 @@
   grid-template-rows: 20% 60% 20%;
   grid-row: 2 / 3;
   @media (max-width: 1200px) {
+    grid-template-rows: 40% 25% 40%;
+  }
+  @media (max-width: 800px) {
     grid-template-rows: 40% 15% 40%;
   }
-  @media (max-width: 600px) {
+  @media (max-width: 550px) {
     grid-template-rows: 40% 25% 40%;
   }
   &:hover {
@@ -58,9 +64,12 @@
   grid-template-rows: 20% 60% 20%;
   grid-row: 3 / 4;
   @media (max-width: 1200px) {
-  grid-template-rows: 40% 15% 40%;
+  grid-template-rows: 40% 25% 40%;
   }
-  @media (max-width: 600px) {
+  @media (max-width: 800px) {
+    grid-template-rows: 40% 15% 40%;
+  }
+  @media (max-width: 550px) {
     grid-template-rows: 40% 25% 40%;
   }
   &:hover {

@@ -141,8 +141,11 @@ a {
   grid-row: 1 / 2; }
   @media (max-width: 1200px) {
     .article-pregnancy {
+      grid-template-rows: 40% 25% 40%; } }
+  @media (max-width: 800px) {
+    .article-pregnancy {
       grid-template-rows: 40% 15% 40%; } }
-  @media (max-width: 600px) {
+  @media (max-width: 550px) {
     .article-pregnancy {
       grid-template-rows: 40% 25% 40%; } }
   .article-pregnancy:hover {
@@ -166,8 +169,11 @@ a {
   grid-row: 2 / 3; }
   @media (max-width: 1200px) {
     .article-birth {
+      grid-template-rows: 40% 25% 40%; } }
+  @media (max-width: 800px) {
+    .article-birth {
       grid-template-rows: 40% 15% 40%; } }
-  @media (max-width: 600px) {
+  @media (max-width: 550px) {
     .article-birth {
       grid-template-rows: 40% 25% 40%; } }
   .article-birth:hover {
@@ -191,8 +197,11 @@ a {
   grid-row: 3 / 4; }
   @media (max-width: 1200px) {
     .article-baby {
+      grid-template-rows: 40% 25% 40%; } }
+  @media (max-width: 800px) {
+    .article-baby {
       grid-template-rows: 40% 15% 40%; } }
-  @media (max-width: 600px) {
+  @media (max-width: 550px) {
     .article-baby {
       grid-template-rows: 40% 25% 40%; } }
   .article-baby:hover {
@@ -430,7 +439,11 @@ a {
       overflow-y: visible; } }
 
 .body-contact {
-  overflow-y: visible;
+  overflow-y: hidden;
   overflow-x: hidden; }
+  @media (max-width: 1060px) {
+    .body-contact {
+      overflow-x: hidden;
+      overflow-y: visible; } }
 
 /*# sourceMappingURL=main.css.map */
