@@ -142,9 +142,9 @@ a {
   @media (max-width: 1200px) {
     .article-pregnancy {
       grid-template-rows: 40% 20% 40%; } }
-  @media (max-width: 800px) {
+  @media (max-width: 600px) {
     .article-pregnancy {
-      grid-template-rows: 40% 20% 40%; } }
+      grid-template-rows: 40% 25% 40%; } }
   .article-pregnancy:hover {
     filter: brightness(100%);
     transform: scale(1.2);
@@ -167,9 +167,9 @@ a {
   @media (max-width: 1200px) {
     .article-birth {
       grid-template-rows: 40% 20% 40%; } }
-  @media (max-width: 800px) {
+  @media (max-width: 600px) {
     .article-birth {
-      grid-template-rows: 40% 20% 40%; } }
+      grid-template-rows: 40% 25% 40%; } }
   .article-birth:hover {
     filter: brightness(100%);
     transform: scale(1.2);
@@ -192,9 +192,9 @@ a {
   @media (max-width: 1200px) {
     .article-baby {
       grid-template-rows: 40% 20% 40%; } }
-  @media (max-width: 800px) {
+  @media (max-width: 600px) {
     .article-baby {
-      grid-template-rows: 40% 20% 40%; } }
+      grid-template-rows: 40% 25% 40%; } }
   .article-baby:hover {
     filter: brightness(100%);
     transform: scale(1.2);
