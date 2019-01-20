@@ -378,7 +378,7 @@ a {
   height: 100vh; }
   @media (max-width: 1200px) {
     .main-page-offer {
-      grid-template-rows: 95vh 95vh 95vh; } }
+      grid-template-rows: 80vh 80vh 80vh; } }
 
 .main-contact {
   display: flex;
