@@ -4,7 +4,7 @@
   @include background-offer;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 2fr 1fr 2fr;
   grid-row: 1 / 2;
   &:hover {
   filter: brightness(100%);
@@ -23,7 +23,7 @@
   @include background-offer;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 2fr 1fr 2fr;
   grid-row: 2 / 3;
   &:hover {
   filter: brightness(100%);
@@ -41,7 +41,7 @@
   @include background-offer;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 2fr 1fr 2fr;
   grid-row: 3 / 4;
   &:hover {
   filter: brightness(100%);
@@ -60,6 +60,7 @@
   left: 100%;
   background-color: rgba(0, 0, 0, 0.3);
   color: $white;
+  grid-row: 2 / 3;
 }
 
 .article__h2 {
