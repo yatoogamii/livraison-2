@@ -161,12 +161,32 @@
 }
 
 .article__link-tel {
+  display: none;
   text-align: center;
   grid-row: 4 / 5;
   color: $white;
   font-size: 2.3rem;
   padding-left: 9rem;
+  &:hover {
+    color: $white;
+  }
   @media (max-width: 1060px) {
     grid-row: none;
+    display: block;
+    width: 100%;
+    padding: 0;
+  }
+}
+.article__link-skype {
+  text-align: center;
+  grid-row: 4 / 5;
+  color: $white;
+  font-size: 2.3rem;
+  &:hover {
+    color: $white;
+  }
+  @media (max-width: 1060px) {
+    grid-row: none;
+    display: none;
   }
 }
