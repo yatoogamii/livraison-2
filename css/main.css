@@ -232,9 +232,7 @@ a {
 .main__article {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 2fr 6fr 1fr;
   width: 65%;
-  height: 100vh;
   color: #f1faee;
   background-color: #1d3557; }
   @media (max-width: 1200px) {
