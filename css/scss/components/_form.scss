@@ -105,6 +105,9 @@
 }
 
 .container__message {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
   grid-row: 4 / 5;
   @media (max-width: 1060px) {
     display: flex;
@@ -136,8 +139,7 @@
   }
   .fieldset__label {
     position: relative;
-    top: -12.5rem;
-    left: -1.5rem;
+    right: 1rem;
     @media (max-width: 1060px) {
       top: -7.5rem;
       left: 0;
