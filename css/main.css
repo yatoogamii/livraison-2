@@ -8,6 +8,9 @@
 a {
   text-decoration: none; }
 
+img {
+  object-fit: cover; }
+
 html {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 62.5%;
