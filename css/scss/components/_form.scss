@@ -13,7 +13,7 @@
 .form__fieldset {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 5% 13% 13% 45% 10%;
+  grid-template-rows: 5% 13% 13% 45%;
   @media (max-width: 1060px) {
     display: flex;
     flex-wrap: wrap;
@@ -152,7 +152,7 @@
   grid-row: 5 / 6;
   @media (max-width: 1060px) {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 1rem;
     width: 51%;
@@ -160,7 +160,7 @@
   @media (max-width: 600px) {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 1rem;
   }
