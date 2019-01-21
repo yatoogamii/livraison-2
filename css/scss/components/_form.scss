@@ -8,7 +8,7 @@
 
 .form__fieldset {
   display: grid;
-  grid-template-columns: 10% 10% 60% 10% 10%;
+  grid-template-columns: 100%;
   grid-template-rows: 5% 13% 13% 45% 10%;
 }
 
@@ -20,7 +20,6 @@
 }
 
 .container__mail {
-  grid-column: 3 / 4;
   grid-row: 2 / 3;
   .fieldset__input {
     position: relative;
@@ -35,7 +34,6 @@
 }
 
 .container__name {
-  grid-column: 3 / 4;
   grid-row: 3 / 4;
   .fieldset__input {
     position: relative;
@@ -50,7 +48,6 @@
 }
 
 .container__message {
-  grid-column: 3 / 4;
   grid-row: 4 / 5;
   .fieldset__textarea {
     position: relative;
@@ -64,7 +61,6 @@
 }
 
 .container__button {
-  grid-column: 3 / 4;
   grid-row: 5 / 6;
   .fieldset__button {
     position: relative;
