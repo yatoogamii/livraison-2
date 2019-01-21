@@ -4,12 +4,18 @@
   grid-template-rows: 1fr;
   grid-row: 3 / 4;
   text-align: center;
+  @media (max-width: 1060px) {
+    display: block;
+  }
 }
 
 .form__fieldset {
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: 5% 13% 13% 45% 10%;
+  @media (max-width: 1060px) {
+    display: block;
+  }
 }
 
 .fieldset__legend {
@@ -21,6 +27,9 @@
 
 .container__mail {
   grid-row: 2 / 3;
+  @media (max-width: 1060px) {
+    padding: 1rem;
+  }
   .fieldset__input {
     position: relative;
     left: 1.7rem;
@@ -35,6 +44,9 @@
 
 .container__name {
   grid-row: 3 / 4;
+  @media (max-width: 1060px) {
+    padding: 1rem;
+  }
   .fieldset__input {
     position: relative;
     left: 1.3rem;
@@ -49,6 +61,9 @@
 
 .container__message {
   grid-row: 4 / 5;
+  @media (max-width: 1060px) {
+    padding: 1rem;
+  }
   .fieldset__textarea {
     position: relative;
     left: 0.4rem;
@@ -62,6 +77,9 @@
 
 .container__button {
   grid-row: 5 / 6;
+  @media (max-width: 1060px) {
+    padding: 1rem;
+  }
   .fieldset__button {
     position: relative;
     left: 5rem;
@@ -69,11 +87,21 @@
     font-size: 2.5rem;
     padding: 1rem;
     margin: 3rem 1rem;
+    background-color: #1d1d1d;
+    color: $white;
+    @media (min-width: 1060px) {
+
     &:hover {
       background-color: $blue;
       color: $dark-blue;
+      }
     }
+
+      }
+    }
+    @media (max-width: 1060px) {
+    padding: 1rem;
+    margin: 0 1rem;
   }
-}
 
 

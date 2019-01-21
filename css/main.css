@@ -242,13 +242,17 @@ a {
   @media (max-width: 1060px) {
     .main__article {
       width: 100%;
-      height: 100%; } }
+      height: 100%;
+      display: block; } }
 
 .contact-pres {
   grid-row: 2 / 3;
   text-align: center;
   font-size: 3rem;
   padding-top: 5rem; }
+  @media (max-width: 1060px) {
+    .contact-pres {
+      grid-row: none; } }
 
 .article-contact__h2 {
   width: 100%;
@@ -269,6 +273,9 @@ a {
   color: #f1faee;
   font-size: 2.3rem;
   padding-left: 9rem; }
+  @media (max-width: 1060px) {
+    .article__link-tel {
+      grid-row: none; } }
 
 .form__article {
   display: grid;
@@ -276,17 +283,26 @@ a {
   grid-template-rows: 1fr;
   grid-row: 3 / 4;
   text-align: center; }
+  @media (max-width: 1060px) {
+    .form__article {
+      display: block; } }
 
 .form__fieldset {
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: 5% 13% 13% 45% 10%; }
+  @media (max-width: 1060px) {
+    .form__fieldset {
+      display: block; } }
 
 .fieldset__label {
   font-size: 1.5rem; }
 
 .container__mail {
   grid-row: 2 / 3; }
+  @media (max-width: 1060px) {
+    .container__mail {
+      padding: 1rem; } }
   .container__mail .fieldset__input {
     position: relative;
     left: 1.7rem;
@@ -298,6 +314,9 @@ a {
 
 .container__name {
   grid-row: 3 / 4; }
+  @media (max-width: 1060px) {
+    .container__name {
+      padding: 1rem; } }
   .container__name .fieldset__input {
     position: relative;
     left: 1.3rem;
@@ -309,6 +328,9 @@ a {
 
 .container__message {
   grid-row: 4 / 5; }
+  @media (max-width: 1060px) {
+    .container__message {
+      padding: 1rem; } }
   .container__message .fieldset__textarea {
     position: relative;
     left: 0.4rem; }
@@ -319,17 +341,26 @@ a {
 
 .container__button {
   grid-row: 5 / 6; }
+  @media (max-width: 1060px) {
+    .container__button {
+      padding: 1rem; } }
   .container__button .fieldset__button {
     position: relative;
     left: 5rem;
     text-decoration: none;
     font-size: 2.5rem;
     padding: 1rem;
-    margin: 3rem 1rem; }
-    .container__button .fieldset__button:hover {
-      background-color: #457b9d;
-      color: #1d3557; }
+    margin: 3rem 1rem;
+    background-color: #1d1d1d;
+    color: #f1faee; }
+    @media (min-width: 1060px) {
+      .container__button .fieldset__button:hover {
+        background-color: #457b9d;
+        color: #1d3557; } }
 
+@media (max-width: 1060px) {
+  padding: 1rem;
+  margin: 0 1rem; }
 .figure-burger {
   display: none; }
   @media (max-width: 1200px) {
