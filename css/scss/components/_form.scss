@@ -144,6 +144,7 @@
     }
     @media (max-width: 690px) {
       top: 0;
+      padding-bottom: 0.3rem;
     }
   }
 }
@@ -169,16 +170,15 @@
   }
   .fieldset__button {
     text-decoration: none;
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding: 1rem;
     margin: 3rem 1rem;
-    background-color: #1d1d1d;
+    background-color: #122335;
     color: $white;
     @media (min-width: 1060px) {
 
     &:hover {
-      background-color: $blue;
-      color: $dark-blue;
+      background-color: #050a0f;
       }
     }
 
