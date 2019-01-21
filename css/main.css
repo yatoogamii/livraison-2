@@ -432,7 +432,7 @@ a {
     right: 1rem; }
     @media (max-width: 1060px) {
       .container__message .fieldset__label {
-        top: -7.5rem;
+        top: -6.5rem;
         left: 0; } }
     @media (max-width: 690px) {
       .container__message .fieldset__label {
