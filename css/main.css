@@ -407,6 +407,9 @@ a {
   align-items: center;
   flex-wrap: wrap;
   height: 100vh; }
+  @media (max-width: 1060px) {
+    .main-contact {
+      height: 100%; } }
 
 .main-page-index {
   overflow: hidden;
