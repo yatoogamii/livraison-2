@@ -426,7 +426,7 @@ a {
         width: 100%; } }
   .container__message .fieldset__label {
     position: relative;
-    top: -13.5rem;
+    top: -12.5rem;
     left: -1.5rem; }
     @media (max-width: 1060px) {
       .container__message .fieldset__label {
