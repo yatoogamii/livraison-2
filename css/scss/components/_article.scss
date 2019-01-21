@@ -123,6 +123,8 @@
   }
   @media (max-width: 1060px) {
     width: 100%;
+    height: auto;
+    grid-template-rows: 20% 50% 10%;
   }
 }
 
