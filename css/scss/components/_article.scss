@@ -144,11 +144,6 @@
 
 .article-contact__h2 {
   width: 100%;
-  position: relative;
-  left: 2rem;
-  @media (max-width: 1060px) {
-    position: static;
-  }
 }
 
 .article-contact__p {
