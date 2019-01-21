@@ -437,7 +437,8 @@ a {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  height: 100vh; }
+  height: 100vh;
+  background-color: #1d3557; }
   @media (max-width: 1060px) {
     .main-contact {
       height: 100%; } }
@@ -465,7 +466,7 @@ a {
   overflow-x: hidden; }
   @media (max-width: 1060px) {
     .body-contact {
-      overflow-x: hidden;
+      overflow-x: hidden !important;
       overflow-y: visible; } }
 
 /*# sourceMappingURL=main.css.map */

@@ -17,7 +17,7 @@
     overflow-y: hidden;
     overflow-x: hidden;
     @media (max-width: 1060px) { 
-      overflow-x: hidden;
+      overflow-x: hidden !important;
       overflow-y: visible;
     }
   }
